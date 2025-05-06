@@ -55,12 +55,9 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 - Set up environment variables:
-```bash
-cp .env.example .env
-```
-- Edit .env with your:
-  - Google Gemini API key
-  - Neo4j credentials (URI, username, password)
+  - create an .env file and place your
+    - Google Gemini API key
+    - Neo4j credentials (URI, username, password)
 
 ## Usage
 - Start the Streamlit app:
