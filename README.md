@@ -30,3 +30,30 @@ HybridRAG
 - BLEU Score:	    Language generation quality
 - Latency:	      End-to-end time from query submission to answer generation
 - Memory:	        Peak and average memory usage during retrieval and generation
+
+## Requirements
+- Python 3.9+
+- Neo4j database (optional for Graph/Hybrid RAG)
+- Google Gemini API key
+- ChromaDB
+- Streamlit
+
+## Installation
+- Clone the repository:
+```bash
+  git clone https://github.com/Deepak-Velmurugan/MultiRAG-analysis.git
+  cd rag-evaluation-system
+``` 
+- Set up environment variables:
+Edit .env with your API keys and database credentials.
+
+## Usage
+- Start the Streamlit app:
+```bash
+streamlit run MultiRAG-Analysis.py
+```
+## In the browser interface:
+- Upload documents (PDF or text)
+- Enter your question
+- Provide ground truth (optional, for evaluation)
+- View comparative results
