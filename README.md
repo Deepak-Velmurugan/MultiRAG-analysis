@@ -23,7 +23,7 @@ HybridRAG
 
 ## Evaluation Metrics
 
-- Metric	        Description
+- Metric	   \t\t     Description
 - Hallucination   Assessing whether information unsupported by retrieved context is introduced in the answer. 
 - Precision@K	    Fraction of retrieved chunks that are relevant to the query 
 - Recall@K	      Fraction of relevant chunks successfully retrieved among all relevant chunks
