@@ -19,8 +19,7 @@ GraphRAG
 HybridRAG
 ![image](https://github.com/user-attachments/assets/4ef5f3af-fffb-4fe9-aab8-2b8fbfee26da)
 
-##
-Evaluation Metrics
+##Evaluation Metrics
 Metric	        Description
 Hallucination   Assessing whether information unsupported by retrieved context is introduced in the answer. 
 Precision@K	    Fraction of retrieved chunks that are relevant to the query 
