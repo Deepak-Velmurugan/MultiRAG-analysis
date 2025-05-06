@@ -1,4 +1,4 @@
-# Hybrid RAG Evaluation System
+#MultiRAG Analysis System
 
 A comparative evaluation framework for Naive RAG, Graph RAG, and Hybrid RAG approaches, combining vector similarity search with graph-based relationship traversal.
 
