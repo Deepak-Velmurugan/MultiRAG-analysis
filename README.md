@@ -1,4 +1,5 @@
 # Hybrid RAG Evaluation System
+
 A comparative evaluation framework for Naive RAG, Graph RAG, and Hybrid RAG approaches, combining vector similarity search with graph-based relationship traversal.
 
 ## Features
@@ -10,6 +11,7 @@ A comparative evaluation framework for Naive RAG, Graph RAG, and Hybrid RAG appr
 - **Interactive UI**: Streamlit-based dashboard with visualizations
 
 ## Architecture
+
 NaiveRAG:
 ![image](https://github.com/user-attachments/assets/5b072093-3067-4c28-8900-c0d5d4a4d847)
 
@@ -19,7 +21,8 @@ GraphRAG
 HybridRAG
 ![image](https://github.com/user-attachments/assets/4ef5f3af-fffb-4fe9-aab8-2b8fbfee26da)
 
-##Evaluation Metrics
+## Evaluation Metrics
+
 Metric	        Description
 Hallucination   Assessing whether information unsupported by retrieved context is introduced in the answer. 
 Precision@K	    Fraction of retrieved chunks that are relevant to the query 
