@@ -12,24 +12,24 @@ A comparative evaluation framework for Naive RAG, Graph RAG, and Hybrid RAG appr
 
 ## Architecture
 
-NaiveRAG:
+__NaiveRAG__
 ![image](https://github.com/user-attachments/assets/5b072093-3067-4c28-8900-c0d5d4a4d847)
 
-GraphRAG
+__GraphRAG__
 ![image](https://github.com/user-attachments/assets/1a02320e-dcf7-474a-b6c2-b9568d29a9e1)
 
-HybridRAG
+__HybridRAG__
 ![image](https://github.com/user-attachments/assets/4ef5f3af-fffb-4fe9-aab8-2b8fbfee26da)
 
 ## Evaluation Metrics
 
-- Hallucination:  Assessing whether information unsupported by retrieved context is introduced in the answer. 
-- Precision@K:	  Fraction of retrieved chunks that are relevant to the query 
-- Recall@K:	      Fraction of relevant chunks successfully retrieved among all relevant chunks
-- F1 Score:	      Harmonic mean of precision and recall
-- BLEU Score:	    Language generation quality
-- Latency:	      End-to-end time from query submission to answer generation
-- Memory:	        Peak and average memory usage during retrieval and generation
+- __Hallucination:__  Assessing whether information unsupported by retrieved context is introduced in the answer. 
+- __Precision@K:__	  Fraction of retrieved chunks that are relevant to the query 
+- __Recall@K:__	      Fraction of relevant chunks successfully retrieved among all relevant chunks
+- __F1 Score:__	      Harmonic mean of precision and recall
+- __BLEU Score:__	    Language generation quality
+- __Latency:__	      End-to-end time from query submission to answer generation
+- __Memory:__	        Peak and average memory usage during retrieval and generation
 
 ## Requirements
 - Python 3.9+
@@ -41,11 +41,16 @@ HybridRAG
 ## Installation
 - Clone the repository:
 ```bash
-  git clone https://github.com/Deepak-Velmurugan/MultiRAG-analysis.git
-  cd rag-evaluation-system
-``` 
+git clone https://github.com/Deepak-Velmurugan/MultiRAG-analysis.git
+cd MultiRAG-analysis
+```
 - Set up environment variables:
-Edit .env with your API keys and database credentials.
+  - Edit .env with your API keys and database credentials.
+
+- Run requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 - Start the Streamlit app:
