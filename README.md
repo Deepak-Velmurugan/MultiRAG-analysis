@@ -44,13 +44,31 @@ __HybridRAG__
 git clone https://github.com/Deepak-Velmurugan/MultiRAG-analysis.git
 cd MultiRAG-analysis
 ```
-- Set up environment variables:
-  - Edit .env with your API keys and database credentials.
+- Create/activate a virtual environment with Python 3.9+:
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
 
-- Run requirements.txt
+- Install:
 ```bash
 pip install -r requirements.txt
 ```
+
+- Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+- Set up environment variables:
+  - Edit .env with your API keys and database credentials.
+```bash
+cp .env.example .env
+```
+- Edit .env with your:
+  - Google Gemini API key
+  - Neo4j credentials (URI, username, password)
 
 ## Usage
 - Start the Streamlit app:
